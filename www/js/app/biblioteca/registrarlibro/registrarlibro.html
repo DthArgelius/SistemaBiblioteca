@@ -1,0 +1,41 @@
+<ion-view view-title="Registro de Libros Nuevos">
+  <ion-content>
+    <div class="bar bar-header bar-positive">
+      <h1 class="title">Sistema de Biblioteca UCV</h1>
+    </div>
+    <div class="bar bar-subheader">
+      <h2 class="title">Datos Generales</h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="list">
+      <label class="item item-input item-floating-label">
+    <span class="input-label">Código :</span>
+    <input type="text" placeholder="Ingrese el código">
+  </label>
+      <label class="item item-input item-floating-label">
+    <span class="input-label">Título :</span>
+    <input type="text" placeholder="Ingrese el título">
+  </label>
+    </div>
+    <ion-input class="item item-input item-select">
+      <span class="input-label">Categoría :</span>
+      <select>
+        <option selected>Eliga una Categoría</option>
+        <option>Ingeniería</option>
+        <option>Medicina</option>
+        <option>Ciencias Contables</option>
+        <option>Derecho</option>
+        <option>Administración</option>
+        <option>Ciencias Físicas y Matemáticas</option>
+    </select>
+    </ion-input>
+    <label class="item item-input item-floating-label">
+    <span class="input-label">Año de Publicación</span>
+    <input type="text" placeholder="Ingrese el año">
+  </label>
+  <label class="item">
+          <button class="button button-block button-positive" type="submit">Registrar</button>
+        </label>  </ion-content>
+</ion-view>
